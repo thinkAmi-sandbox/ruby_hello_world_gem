@@ -6,6 +6,6 @@ RSpec.describe HelloWorld do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    expect(HelloWorld::Message.call).to eq('hey')
   end
 end
