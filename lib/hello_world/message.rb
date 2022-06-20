@@ -1,7 +1,7 @@
 module HelloWorld
   class Message
     def self.call
-      'hey'
+      'bye'
     end
   end
 end
